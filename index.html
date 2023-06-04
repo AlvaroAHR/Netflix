@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <Div class="contenedor">
+            <h1 class="logo">Netflix</h1>
+            <nav class="options">
+                <a href="Busqueda">
+                    <!-- <img src="./assets/icon_search.svg" alt="Buscar"> -->
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" ><g id="_01_align_center" data-name="01 align center"><path d="M24,22.586l-6.262-6.262a10.016,10.016,0,1,0-1.414,1.414L22.586,24ZM10,18a8,8,0,1,1,8-8A8.009,8.009,0,0,1,10,18Z"/></g></svg>
+                    
+                </a>
+                <a href="Inicio" class="activo">
+                    <!-- <img src="assets/icon_start.svg" alt="Inicio"> -->
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" ><g id="_01_align_center" data-name="01 align center"><path d="M13.338.833a2,2,0,0,0-2.676,0L0,10.429v10.4a3.2,3.2,0,0,0,3.2,3.2H20.8a3.2,3.2,0,0,0,3.2-3.2v-10.4ZM15,22.026H9V17a3,3,0,0,1,6,0Zm7-1.2a1.2,1.2,0,0,1-1.2,1.2H17V17A5,5,0,0,0,7,17v5.026H3.2a1.2,1.2,0,0,1-1.2-1.2V11.319l10-9,10,9Z"/></g></svg>
+                    <h6>Inicio</h6>
+
+                </a>
+                <a href="Novedades">
+                    <!-- <img src="assets/Icon_novedades.svg" alt="Novedades"> -->
+                    <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 24 24" width="24" height="24" ><path d="M20.5,6h-5c-.828,0-1.5,.672-1.5,1.5s.672,1.5,1.5,1.5h3.379l-5.879,5.879-4.119-4.119c-1.037-1.037-2.725-1.037-3.762,0L.439,15.439c-.586,.586-.586,1.535,0,2.121s1.535,.586,2.121,0l4.439-4.439,4.119,4.119c.519,.519,1.199,.778,1.881,.778s1.362-.26,1.881-.778l6.119-6.119v3.379c0,.828,.672,1.5,1.5,1.5s1.5-.672,1.5-1.5v-5c0-1.93-1.57-3.5-3.5-3.5Z"/></svg>
+
+                </a>
+                <a href="Series">
+                    <!-- <img src="assets/icon_series.svg" alt="Series"> -->
+                    <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 24 24" width="24" height="24" ><path d="M24,13V4a3,3,0,0,0-3-3H3A3,3,0,0,0,0,4v9Z"/><polygon points="24 19 24 15 0 15 0 19 11 19 11 21 6 21 6 23 18 23 18 21 13 21 13 19 24 19"/></svg>
+
+                </a>
+                <a href="Peliculas">
+                    <!-- <img src="assets/icon_movie.svg" alt="Peliculas"> -->
+                    <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 24 24"  width="24" height="24" > 
+                        <path d="m18.5,1H5.5C2.467,1,0,3.467,0,6.5v11c0,3.033,2.467,5.5,5.5,5.5h13c3.033,0,5.5-2.467,5.5-5.5V6.5c0-3.033-2.467-5.5-5.5-5.5Zm2.5,6h-3.879l2.651-2.651c.734.436,1.228,1.237,1.228,2.151v.5Zm-11.879,0l3-3h3.758l-3,3h-3.758Zm-3.621-3h2.379l-3,3h-1.879v-.5c0-1.378,1.122-2.5,2.5-2.5Zm13,16H5.5c-1.378,0-2.5-1.122-2.5-2.5v-7.5h18v7.5c0,1.378-1.122,2.5-2.5,2.5Z"/>
+                      </svg>
+                </a>
+                <a href="Categorias">
+                    <!-- <img src="assets/icon_categories.svg" alt="Categorias"> -->
+                    <svg xmlns="http://www.w3.org/2000/svg" id="Isolation_Mode" data-name="Isolation Mode" viewBox="0 0 24 24" width="24" height="24" ><path d="M24,3H12V5.267L10.975,3.491a2.5,2.5,0,0,0-4.33,0L0,15H7.181a6.5,6.5,0,1,0,12.638,0H24ZM5.2,12,8.81,5.741l2.65,4.59A6.5,6.5,0,0,0,8.816,12Zm8.3,8A3.5,3.5,0,1,1,17,16.5,3.5,3.5,0,0,1,13.5,20ZM21,12H18.184A6.486,6.486,0,0,0,15,10.181V6h6Z"/></svg>
+
+                </a>
+                <a href="Listas">
+                    <!-- <img src="assets/icon_more.svg" alt="Listas"> -->
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve" width="24" height="24">
+                        <g>
+                            <path d="M480,224H288V32c0-17.673-14.327-32-32-32s-32,14.327-32,32v192H32c-17.673,0-32,14.327-32,32s14.327,32,32,32h192v192   c0,17.673,14.327,32,32,32s32-14.327,32-32V288h192c17.673,0,32-14.327,32-32S497.673,224,480,224z"/>
+                        </g>
+                        
+                        
+                        </svg>
+                </a>
+            </nav>
+            <nav class="usuario">
+                <a href="Notificaciones">
+                    <!-- <img src="assets/icon_bell.svg" alt="Notificaciones"> -->
+                    <svg xmlns="http://www.w3.org/2000/svg" id="Isolation_Mode" data-name="Isolation Mode" viewBox="0 0 24 24" width="24" height="24" ><path d="M23.608,17.013l-2.8-10.1A9.443,9.443,0,0,0,2.486,7.4L.321,17.14a2.5,2.5,0,0,0,2.441,3.042H6.905a5.285,5.285,0,0,0,10.154,0H21.2a2.5,2.5,0,0,0,2.409-3.169Zm-20.223.169,2.03-9.137a6.443,6.443,0,0,1,12.5-.326l2.628,9.463Z"/></svg>
+
+                </a>
+                <a href="usuario" >
+                    <img src="./assets/perfil.JPG" alt="Perfil">
+                </a>
+            </nav>
+        </Div>
+     </header>
+     <main>
+<div class="pantalla-principal">
+    <div class="contenedor">
+        <h3 class="title">Fast & Furious X</h3>
+        <nav class="generos">
+            <ul>Drama</ul>
+            <ul>Accion</ul>
+            <ul>Suspenso</ul>
+            <ul>Emotivo</ul>
+
+
+        </nav>
+        <p class="description">Durante numerosas misiones más que imposibles, Dom Toretto y su familia han sido capaces de ser más listos, de tener más valor y de ir más rápido que cualquier enemigo que se cruzara con ellos. Pero ahora tendrán que enfrentarse al oponente más letal que jamás hayan conocido: un terrible peligro que resurge del pasado, que se mueve por una sangrienta sed de venganza y que está dispuesto a destrozar a la familia y destruir para siempre todo lo que a Dom le importa.</p>
+        <button role="button" class="boton-play">
+            <img src="./assets/play-solid.svg" alt="">
+            
+            Ver</button>
+        <button role="button" class="boton-inf">Más info</button>
+
+    </div>
+
+</div>
+
+<div class="peliculas-recomendadas contenedor">
+    <div class="contenedor-titulo-controles">
+        <h3>Recomendaciones para ti</h3>
+        <div class="indicadores"></div>    
+    </div>
+
+    <div class="contenedor-principal">
+        <button role="boton" id="flecha-izquierda" class="flecha-izquierda">
+            <svg xmlns="http://www.w3.org/2000/svg" id="Bold" viewBox="0 0 24 24" width="34" height="34"><path d="M17.921,1.505a1.5,1.5,0,0,1-.44,1.06L9.809,10.237a2.5,2.5,0,0,0,0,3.536l7.662,7.662a1.5,1.5,0,0,1-2.121,2.121L7.688,15.9a5.506,5.506,0,0,1,0-7.779L15.36.444a1.5,1.5,0,0,1,2.561,1.061Z"/></svg>
+        </button>
+        <div class="contenedor-carousel">
+            <div class="carousel">
+                <div class="pelicula">
+                    <a href="#"><img src="./assets/img1.jpg" alt="img1"></a>
+                </div>
+                 <div class="pelicula">
+                    <a href="#"><img src="./assets/img2.jpg" alt="img2"></a>
+                </div>
+                <div class="pelicula">
+                    <a href="#"><img src="./assets/img3.jpg" alt="img3"></a>
+                </div>
+                 <div class="pelicula">
+                    <a href="#"><img src="./assets/img4.jpg" alt="img4"></a>
+                </div>
+                <div class="pelicula">
+                    <a href="#"><img src="./assets/img5.jpg" alt="img5"></a>
+                </div>
+                 <div class="pelicula">
+                    <a href="#"><img src="./assets/img6.jpg" alt="img6"></a>
+                </div>
+                <div class="pelicula">
+                    <a href="#"><img src="./assets/img7.jpg" alt="img7"></a>
+                </div>
+                 <div class="pelicula">
+                    <a href="#"><img src="./assets/img8.jpg" alt="img8"></a>
+                </div>
+                <div class="pelicula">
+                    <a href="#"><img src="./assets/img9.jpg" alt="img9"></a>
+                </div>
+                 <div class="pelicula">
+                    <a href="#"><img src="./assets/img10.jpg" alt="img10"></a>
+                </div>
+                <div class="pelicula">
+                    <a href="#"><img src="./assets/img11.jpg" alt="img11"></a>
+                </div>
+                 <div class="pelicula">
+                    <a href="#"><img src="./assets/img12.jpg" alt="img12"></a>
+                </div>
+                <div class="pelicula">
+                    <a href="#"><img src="./assets/img13.jpg" alt="img13"></a>
+                </div>
+                <div class="pelicula">
+                    <a href="#"><img src="./assets/img14.jpg" alt="img14"></a>
+                </div>
+                <div class="pelicula">
+                    <a href="#"><img src="./assets/img15.jpg" alt="img15"></a>
+                </div>
+                <div class="pelicula">
+                    <a href="#"><img src="./assets/img16.jpg" alt="img16"></a>
+                </div>
+                <div class="pelicula">
+                    <a href="#"><img src="./assets/img17.jpg" alt="img17"></a>
+                </div>
+                <div class="pelicula">
+                    <a href="#"><img src="./assets/img18.jpg" alt="img18"></a>
+                </div>
+                <div class="pelicula">
+                    <a href="#"><img src="./assets/img19.jpg" alt="img19"></a>
+                </div>
+                <div class="pelicula">
+                    <a href="#"><img src="./assets/img20.jpg" alt="img20"></a>
+                </div>
+
+            </div>
+        </div>
+        <button role="boton" id="flecha-derecha" class="flecha-derecha">
+            <svg xmlns="http://www.w3.org/2000/svg" id="Bold" viewBox="0 0 24 24" width="34" height="34"><path d="M6.079,22.5a1.5,1.5,0,0,1,.44-1.06l7.672-7.672a2.5,2.5,0,0,0,0-3.536L6.529,2.565A1.5,1.5,0,0,1,8.65.444l7.662,7.661a5.506,5.506,0,0,1,0,7.779L8.64,23.556A1.5,1.5,0,0,1,6.079,22.5Z"/></svg>
+        </button>
+        
+    </div>
+    <div class="contenedor-estrenos">
+        <div class="seccion-cabecera">
+            <h4>Proximamente</h4>
+        </div>
+        <div class="seccion-proximos-estrenos">
+            <a href="#" class="link-estreno">
+                <div class="seccion-estreno">Yo nunca</div>
+                <div class="seccion-estreno-synapsis">
+                    Luego de un año traumático, una adolescente indio-estadounidense solo quiere ser popular, pero nada ni nadie le facilitará la tarea.
+                </div>
+            </a>
+                
+            <a href="#" class="link-estreno">
+                <div class="seccion-estreno">Black Mirror</div>
+                <div class="seccion-estreno-synapsis">Esta surrealista serie de antología repleta de historias retorcidas muestra los peores rasgos de la humanidad, sus grandes innovaciones y mucho más.                    
+                </div>
+            </a>
+            <a href="#" class="link-estreno">
+                <div class="seccion-estreno">Black Cover: La espada del rey mago </div>
+                <div class="seccion-estreno-synapsis">Un niño que no tiene el poder de hacer magia lucha por obtener el título de Rey Mago, mientras cuatro antiguos Reyes Magos reaparecen para destruir el Reino del Trébol.                    
+                </div>
+            </a>
+            <a href="#" class="link-estreno">
+                <div class="seccion-estreno">Nuestro planeta</div>
+                <div class="seccion-estreno-synapsis">Experimenta la belleza natural de nuestro planeta y descubre cómo el cambio climático afecta a todos los seres vivos en este ambicioso documental de magnitud excepcional.                    
+                </div>
+            </a>
+            <a href="#" class="link-estreno">
+                <div class="seccion-estreno">My little Pony: Deja tu marca</div>
+                <div class="seccion-estreno-synapsis">Bienvenidos nuevamente a Equestria, donde la magia de los ponis brilla por doquier. ¡La aventura nos espera con Zipp, Sunny, Izzy, Pipp y Hitch a la cabeza!
+                    
+                </div>
+            </a>
+            <a href="#" class="link-estreno">
+                <div class="seccion-estreno">Recursos Humanos</div>
+                <div class="seccion-estreno-synapsis">Bichitos del amor, monstruos hormonales y otras criaturas viven dramas de oficina mientras cuidan a sus clientes en esta serie derivada de «Big Mouth».
+                    
+                </div>
+            </a>
+            <a href="#" class="link-estreno">
+                <div class="seccion-estreno">Tour de francia: En el corazón del peloton</div>
+                <div class="seccion-estreno-synapsis">Esta serie retrata las penas y glorias de distintos equipos de deportistas que compiten en la edición de 2022 de la carrera de ciclismo más exigente del mundo.
+                    
+                </div>
+            </a>
+            <a href="#" class="link-estreno">
+                <div class="seccion-estreno">Misión de rescate 2</div>
+                <div class="seccion-estreno-synapsis">El agente altamente entrenado Tyler Rake regresa del umbral de la muerte con otra peligrosa misión: rescatar a la familia de un mafioso despiadado.
+                
+                </div>
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="footer-page">
+        <div class="footer-links">
+            <div class="link">Preguntas Frecuentes </div>
+            <div class="link">Centro de ayuda</div>
+            <div class="link">Cuenta</div>
+            <div class="link">Prueba de velocidad</div>
+            <div class="link">Avisos legales</div>
+        
+        </div>
+    </div>
+
+
+    </div>
+<h4>Derechos de autor &copy; Alvaro Adolfo hernandez | 2023 |Netflix Colombia</h4>
+
+     </main>
+    
+<Script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></Script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
